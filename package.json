@@ -1,10 +1,10 @@
 {
-  "name": "awesome-typed-sass-modules",
-  "version": "1.1.5",
+  "name": "typed-sass-scss-modules",
+  "version": "1.0",
   "description": "typed css module that works with sass",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Feiyang1/awesome-typed-sass-modules"
+    "url": "https://github.com/HegemonX/typed-sass-scss-modules"
   },
   "main": "",
   "scripts": {
@@ -13,9 +13,9 @@
     "prepublish": "npm run build"
   },
   "bin": {
-    "atsm": "lib/cli.js"
+    "tssm": "lib/cli.js"
   },
-  "author": "Feiyang Chen",
+  "author": "HegemonX",
   "license": "ISC",
   "dependencies": {
     "cosmiconfig": "^5.0.6",

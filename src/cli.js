@@ -184,7 +184,7 @@ const main = () => {
         return;
     }
 
-    const filesPattern = path.join(searchDir, argv.p);
+    const filesPattern = path.join(searchDir, argv.p).replace(/\\/, '/');
 
     const rootDir = process.cwd();
 
